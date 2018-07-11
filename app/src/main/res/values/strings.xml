@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android 动画总结</string>
+
+
+    <string name="tween">TWEEN 动画</string>
+    <string name="frame">FRAME 动画</string>
+    <string name="property">PROPERTY 动画</string>
+    <string name="circularreveal">CIRCULARREVEAL</string>
+    <string name="activity">Activity 转场动画</string>
+    <string name="animated">Animated-Vector</string>
+    <string name="path">Path 绘制</string>
+    <string name="customsvg">CustomSVG</string>
+    <string name="customsvg2">CustomSVG2</string>
+    <string name="exercise">PROPERTY 练习总结动画</string>
+    <string name="scenetransition">Material转场动画</string>
+    <string name="apply">典型应用</string>
+</resources>

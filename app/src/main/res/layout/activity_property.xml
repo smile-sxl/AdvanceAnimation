@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_object_animator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/ic_header" />
+
+            <Button
+                android:id="@+id/btn_object_animator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Object Animator" />
+
+            <ImageView
+                android:id="@+id/iv_value_animator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/ic_header" />
+
+            <Button
+                android:id="@+id/btn_value_animator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Value_Animator" />
+
+            <RelativeLayout
+                android:id="@+id/rl_heart"
+                android:layout_width="match_parent"
+                android:layout_height="260dp">
+
+                <ImageView
+                    android:id="@+id/iv_heart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/dot_red" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_heart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Value Animator 画心形" />
+
+            <TextView
+                android:id="@+id/tv_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#00bcd4"
+                android:textSize="76sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="开始动画" />
+
+            <Button
+                android:id="@+id/btn_path"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="PATH 路径动画" />
+
+            <Button
+                android:id="@+id/btn_exercise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Value+Object+路径 启动动画实战" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

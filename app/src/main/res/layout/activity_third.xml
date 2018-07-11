@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15dp">
+
+    <View
+        android:id="@+id/holder_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="?android:colorPrimary"
+        android:transitionName="share"
+        tools:targetApi="lollipop" />
+
+    <TextView
+        android:id="@+id/tx_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="12dp"
+        android:elevation="5dp"
+        android:text="Android"
+        android:textColor="#fafafa"
+        android:textSize="38sp"
+        android:transitionName="user_name" />
+
+    <Button
+        android:id="@+id/fab_button"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/holder_view"
+        android:layout_marginTop="-80dp"
+        android:background="@mipmap/icon"
+        android:elevation="5dp"
+        android:transitionName="fab" />
+
+
+</RelativeLayout>

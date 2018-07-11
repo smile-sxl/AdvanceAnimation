@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="NewApi">
+    <!--指定选择状态下的图片  而且一定要是选择状态下在前面-->
+    <item
+        android:id="@+id/state_on"
+        android:drawable="@drawable/ic_twitter"
+        android:state_checked="true" />
+    <!--指定平常状态下的图片-->
+    <item
+        android:id="@+id/state_off"
+        android:drawable="@drawable/ic_heart" />
+    <!-- 指定从平常状态到选择状态下的矢量图动画-->
+    <transition
+        android:drawable="@drawable/heart_to_twitter"
+        android:fromId="@id/state_off"
+        android:toId="@id/state_on" />
+    <!-- 指定从选择状态到平常状态下的矢量图动画-->
+    <transition
+        android:drawable="@drawable/twitter_to_heart"
+        android:fromId="@id/state_on"
+        android:toId="@id/state_off" />
+</animated-selector>

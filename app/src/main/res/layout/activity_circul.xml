@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="点击图片 开始动画"
+        android:textColor="#303030"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/iv_oval"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="0"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/bg1" />
+
+    <ImageView
+        android:id="@+id/iv_rect"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="0"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/bg2" />
+</LinearLayout>

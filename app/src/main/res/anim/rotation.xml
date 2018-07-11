@@ -1,0 +1,8 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--属性动画，旋转360度-->
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1500"
+        android:propertyName="rotation"
+        android:valueFrom="0"
+        android:valueTo="360" />
+</set>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sxl.animation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TweenActivity"
+            android:label="@string/tween" />
+        <activity
+            android:name=".FrameActivity"
+            android:label="@string/frame" />
+        <activity
+            android:name=".PropertyActivity"
+            android:label="@string/property" />
+        <activity
+            android:name=".CirculActivity"
+            android:label="@string/circularreveal" />
+        <activity
+            android:name=".TransActivity"
+            android:label="@string/activity" />
+        <activity
+            android:name=".VectorActivity"
+            android:label="@string/animated" />
+        <activity
+            android:name=".PathActivity"
+            android:label="@string/path" />
+        <activity
+            android:name=".CustomSvgActivity"
+            android:label="@string/customsvg" />
+        <activity
+            android:name=".CustomSvg2Activity"
+            android:label="@string/customsvg2" />
+        <activity
+            android:name=".ExerciseAnimActivity"
+            android:label="@string/exercise" />
+        <activity
+            android:name=".TwoActivity"
+            android:label="TwoActivity" />
+        <activity
+            android:name=".SceneTransitionActivity"
+            android:label="@string/scenetransition" />
+        <activity
+            android:name=".ThirdActivity"
+            android:label="ThirdActivity" />
+
+        <activity android:name=".PathAnimActivity" />
+        <activity
+            android:name=".ApplyActivity"
+            android:label="@string/apply" />
+        <activity android:name=".DetailActivity" />
+    </application>
+
+</manifest>

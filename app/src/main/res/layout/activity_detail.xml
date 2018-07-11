@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_header"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_header"
+        android:transitionName="header" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="标题"
+        android:textSize="26sp"
+        android:transitionName="title" />
+
+    <TextView
+        android:id="@+id/tv_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="简介简介简介简介"
+        android:textSize="18sp"
+        android:transitionName="about" />
+
+</LinearLayout>

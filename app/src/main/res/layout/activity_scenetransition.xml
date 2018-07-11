@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_explode"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Explode" />
+
+    <Button
+        android:id="@+id/btn_slide"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Slide" />
+
+    <Button
+        android:id="@+id/btn_fade"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Fade" />
+
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Share"
+        android:transitionName="share" />
+
+    <RelativeLayout
+        android:id="@+id/rlView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/fab_button"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@mipmap/icon"
+            android:elevation="5dp"
+            android:transitionName="fab" />
+
+        <TextView
+            android:id="@+id/tx_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:elevation="5dp"
+            android:text="Android"
+            android:textColor="#353535"
+            android:textSize="18sp"
+            android:transitionName="user_name" />
+    </RelativeLayout>
+
+
+</LinearLayout>
